@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'god-of-war';
+    src: url('fontes/GODOFWAR.TTF') format('truetype');
+}
+
+body{
+    background-color: black;
+    background-image: url('imagens/fundo-001.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+div{
+    position: relative;
+    left: 30px;
+    top: 210px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: auto;
+    position: absolute;
+    left: 13%;
+    border: 20px;
+}
+
+.titulo{
+    font-family: 'god-of-war';
+    font-size: 4em;
+    text-indent: 1%;
+    background-image: linear-gradient(to right, white, transparent);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    
+}
+
+strong{
+    color: rgb(143, 1, 1);
+}
